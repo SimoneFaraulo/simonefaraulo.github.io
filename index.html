@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html lang="en-US" dir="ltr"> 
+<head> <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Memory</title>  
+</head>
+    <body>
+        <h1> Memory </h1>
+        <div class = "form" >
+            <lable> Mosse totali: </lable>
+            <label id="moves"> 0 </label>
+        </div>
+        <div class = "bottone" >
+            <button type="button" id = "reset">reset</button> 
+        </div>
+        
+
+        <div class="grid-container">
+            <div class="grid-item" id="0"></div>
+            <div class="grid-item" id="1"></div>
+            <div class="grid-item" id="2"></div>
+            <div class="grid-item" id="3"></div>
+            <div class="grid-item" id="4"></div>
+            <div class="grid-item" id="5"></div>
+            <div class="grid-item" id="6"></div>
+            <div class="grid-item" id="7"></div>
+            <div class="grid-item" id="8"></div>
+            <div class="grid-item" id="9"></div>
+            <div class="grid-item" id="10"></div>
+            <div class="grid-item" id="11"></div>
+            <div class="grid-item" id="12"></div>
+            <div class="grid-item" id="13"></div>
+            <div class="grid-item" id="14"></div>
+            <div class="grid-item" id="15"></div>
+          </div> 
+          <script src="application.js"></script>
+          <script>
+            if('serviceWorker' in navigator) {
+                navigator.serviceWorker.register('/serviceworker.js', {scope: '/'});
+            }
+            </script>
+    </body>

@@ -1,0 +1,59 @@
+h1 {
+    text-align: center;
+}
+
+.form {
+    font-family: arial;
+    font-size: 24px;
+    margin: 25px;
+    /*width: 1450px;
+    height: 80px;
+
+    /* Center child horizontally*/
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+.bottone {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+button {
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    background-color: gainsboro;
+    padding: 5px 20px;
+    color: blue;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 100px); /* Imposta la larghezza fissa di 100px per ogni colonna */
+    gap: 2px; /* Riduce la distanza tra le colonne */
+    background-color: #fff;
+    padding: auto;
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+}
+ 
+.grid-item {
+    background-color: gainsboro;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    width: 50px; /* Imposta la larghezza fissa di 100px per ogni cella */
+    height: 15px
+  }
+
+body {
+    align-items: center; /* Centra la griglia verticalmente */
+}
